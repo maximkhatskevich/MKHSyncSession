@@ -8,25 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		9441AF941CA37A4C00A7D593 /* MKHSyncSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441AF931CA37A4C00A7D593 /* MKHSyncSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9441AF9B1CA37A4C00A7D593 /* MKHSyncSession.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9441AF901CA37A4C00A7D593 /* MKHSyncSession.framework */; };
 		9441AFAD1CA37A9D00A7D593 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9441AFAB1CA37A9D00A7D593 /* Main.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9441AF9C1CA37A4C00A7D593 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9441AF871CA37A4C00A7D593 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9441AF8F1CA37A4C00A7D593;
-			remoteInfo = MKHSyncSession;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9441AF901CA37A4C00A7D593 /* MKHSyncSession.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MKHSyncSession.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9441AF931CA37A4C00A7D593 /* MKHSyncSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKHSyncSession.h; sourceTree = "<group>"; };
 		9441AF951CA37A4C00A7D593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9441AF9A1CA37A4C00A7D593 /* MKHSyncSessionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKHSyncSessionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9441AFAB1CA37A9D00A7D593 /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,14 +23,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9441AF971CA37A4C00A7D593 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9441AF9B1CA37A4C00A7D593 /* MKHSyncSession.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				9441AF901CA37A4C00A7D593 /* MKHSyncSession.framework */,
-				9441AF9A1CA37A4C00A7D593 /* MKHSyncSessionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,24 +96,6 @@
 			productReference = 9441AF901CA37A4C00A7D593 /* MKHSyncSession.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9441AF991CA37A4C00A7D593 /* MKHSyncSessionTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9441AFA71CA37A4C00A7D593 /* Build configuration list for PBXNativeTarget "MKHSyncSessionTests" */;
-			buildPhases = (
-				9441AF961CA37A4C00A7D593 /* Sources */,
-				9441AF971CA37A4C00A7D593 /* Frameworks */,
-				9441AF981CA37A4C00A7D593 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9441AF9D1CA37A4C00A7D593 /* PBXTargetDependency */,
-			);
-			name = MKHSyncSessionTests;
-			productName = MKHSyncSessionTests;
-			productReference = 9441AF9A1CA37A4C00A7D593 /* MKHSyncSessionTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -146,9 +107,6 @@
 				ORGANIZATIONNAME = "Maxim Khatskevich";
 				TargetAttributes = {
 					9441AF8F1CA37A4C00A7D593 = {
-						CreatedOnToolsVersion = 7.3;
-					};
-					9441AF991CA37A4C00A7D593 = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
@@ -166,20 +124,12 @@
 			projectRoot = "";
 			targets = (
 				9441AF8F1CA37A4C00A7D593 /* MKHSyncSession */,
-				9441AF991CA37A4C00A7D593 /* MKHSyncSessionTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9441AF8E1CA37A4C00A7D593 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9441AF981CA37A4C00A7D593 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -197,22 +147,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9441AF961CA37A4C00A7D593 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9441AF9D1CA37A4C00A7D593 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9441AF8F1CA37A4C00A7D593 /* MKHSyncSession */;
-			targetProxy = 9441AF9C1CA37A4C00A7D593 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		9441AFA21CA37A4C00A7D593 /* Debug */ = {
@@ -338,26 +273,6 @@
 			};
 			name = Release;
 		};
-		9441AFA81CA37A4C00A7D593 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = MKHSyncSessionTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = khatskevich.maxim.MKHSyncSessionTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		9441AFA91CA37A4C00A7D593 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = MKHSyncSessionTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = khatskevich.maxim.MKHSyncSessionTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -375,15 +290,6 @@
 			buildConfigurations = (
 				9441AFA51CA37A4C00A7D593 /* Debug */,
 				9441AFA61CA37A4C00A7D593 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9441AFA71CA37A4C00A7D593 /* Build configuration list for PBXNativeTarget "MKHSyncSessionTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9441AFA81CA37A4C00A7D593 /* Debug */,
-				9441AFA91CA37A4C00A7D593 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
