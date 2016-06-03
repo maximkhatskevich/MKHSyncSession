@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9441AF941CA37A4C00A7D593 /* MKHSyncSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 9441AF931CA37A4C00A7D593 /* MKHSyncSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9441AF9B1CA37A4C00A7D593 /* MKHSyncSession.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9441AF901CA37A4C00A7D593 /* MKHSyncSession.framework */; };
-		9441AFA01CA37A4C00A7D593 /* MKHSyncSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9441AF9F1CA37A4C00A7D593 /* MKHSyncSessionTests.swift */; };
 		9441AFAD1CA37A9D00A7D593 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9441AFAB1CA37A9D00A7D593 /* Main.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +27,6 @@
 		9441AF931CA37A4C00A7D593 /* MKHSyncSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKHSyncSession.h; sourceTree = "<group>"; };
 		9441AF951CA37A4C00A7D593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9441AF9A1CA37A4C00A7D593 /* MKHSyncSessionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKHSyncSessionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9441AF9F1CA37A4C00A7D593 /* MKHSyncSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKHSyncSessionTests.swift; sourceTree = "<group>"; };
-		9441AFA11CA37A4C00A7D593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9441AFAB1CA37A9D00A7D593 /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				9441AF921CA37A4C00A7D593 /* MKHSyncSession */,
-				9441AF9E1CA37A4C00A7D593 /* MKHSyncSessionTests */,
 				9441AF911CA37A4C00A7D593 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,15 +74,6 @@
 				9441AFAA1CA37A9D00A7D593 /* Common */,
 			);
 			path = MKHSyncSession;
-			sourceTree = "<group>";
-		};
-		9441AF9E1CA37A4C00A7D593 /* MKHSyncSessionTests */ = {
-			isa = PBXGroup;
-			children = (
-				9441AF9F1CA37A4C00A7D593 /* MKHSyncSessionTests.swift */,
-				9441AFA11CA37A4C00A7D593 /* Info.plist */,
-			);
-			path = MKHSyncSessionTests;
 			sourceTree = "<group>";
 		};
 		9441AFAA1CA37A9D00A7D593 /* Common */ = {
@@ -214,7 +201,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9441AFA01CA37A4C00A7D593 /* MKHSyncSessionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -310,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
