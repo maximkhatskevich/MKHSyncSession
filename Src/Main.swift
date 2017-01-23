@@ -8,6 +8,8 @@
 //  Inspired by http://ericasadun.com/2015/11/12/more-bad-things-synchronous-nsurlsessions/
 //  See also: https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSURLSession_class/
 
+import Foundation
+
 //===
 
 public
